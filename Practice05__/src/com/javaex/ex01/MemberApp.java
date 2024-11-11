@@ -1,0 +1,19 @@
+package com.javaex.ex01;
+
+public class MemberApp {
+
+	public static void main(String[] args) {
+		
+		Member member1 = new Member("jws", "정우성", 50000);
+		member1.showInfo();
+		
+		Member member2 = new Member("yjs", "유재석", 30000);
+		member2.showInfo();
+		
+		Member member3 = new Member("lhr", "이효리", 40000);
+		member3.showInfo();
+
+		
+	}
+
+}
